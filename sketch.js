@@ -16,6 +16,7 @@
                 pointLight(255,255,255, valor/3, valor/2, 50);
                 specularMaterial(300);
                 shininess(50);
+                emissiveMaterial(50, 50, 100);
                 metalness(5);
                 fill(255, 82, 176);
                 cylinder (valor / 30, 50);
