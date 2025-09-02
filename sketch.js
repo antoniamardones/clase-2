@@ -18,10 +18,11 @@
                 shininess(50);
                 emissiveMaterial(50, 50, 100);
                 metalness(5);
-                fill(255, 82, 176);
+                fill(255, 20, 147);
                 cylinder (valor / 30, 50);
             }
 
             function windowResized() {
                 resizeCanvas(valor, valor);
             }
+
